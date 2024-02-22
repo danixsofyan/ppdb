@@ -17,8 +17,8 @@ class UserSeeder extends Seeder
         $superadmin = User::create([
             'name'      => 'Dani Sofyan',
             'email'     => 'danixsofyan@gmail.com',
-            'provider_id'   => '100276948320179162456',
-            'provider_photo'    => 'https://lh3.googleusercontent.com/a-/AOh14Ghv49bhoxyJIGq0WeakH91tP1AulRRsQ-x4B73l=s96-c',
+            'provider_id'   => '113879050349776823920',
+            'provider_photo'    => 'https://lh3.googleusercontent.com/a/ACg8ocJNSpWaZgPlzgotuQjaUdtdBfN4GrVLCIPSIfS4VQAOQyc=s96-c',
             'password'  => bcrypt('123qweasd'),
             'email_verified_at' => now()
         ]);
